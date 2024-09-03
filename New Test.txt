@@ -1,1 +1,386 @@
 Text added 42
+{
+  "id": "09b84df9-3e86-41db-917b-a568821c8d62",
+  "version": "2.0",
+  "name": "Luma_auto_tests",
+  "url": "https://magento.softwaretestingboard.com",
+  "tests": [{
+    "id": "17615b8f-7292-41f0-b43c-5d9d31adc5de",
+    "name": "Test_valid_registration_sucsessfull",
+    "commands": [{
+      "id": "82bcc809-5cfc-4b6a-917d-1399c73c697d",
+      "comment": "",
+      "command": "open",
+      "target": "/desiree-fitness-tee.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2af75ec7-bf3b-4b6a-8435-b243da65f5e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1543x897",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fa628f7-2117-4c9d-aad0-609ca20d4582",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create an Account",
+      "targets": [
+        ["linkText=Create an Account", "linkText"],
+        ["css=.header:nth-child(2) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Create an Account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/customer/account/create/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create an Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dabaacb3-8e8a-4b14-9a9d-f1c3c5477e60",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62b52c9-1bd7-49aa-82ac-3da992491b75",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div/input", "xpath:position"]
+      ],
+      "value": "Vel"
+    }, {
+      "id": "fa4f4d49-ffae-497e-8491-d9091b1c8e36",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896ffba6-2775-4f07-97e7-1d9bef39496f",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Kilmer"
+    }, {
+      "id": "13ba03f5-6565-4ed9-90cf-4ab021823c5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50b4f04-7027-4ff9-a1f8-3fecd3b2ef5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "kilmer921@gmail.com"
+    }, {
+      "id": "afc5ad0a-4c56-44a4-99b6-ff1c1e365f9e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c804eb5d-744b-4a09-a7e7-4ebe6271632a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test_test1"
+    }, {
+      "id": "794707a0-0400-4e58-9b20-235909281186",
+      "comment": "",
+      "command": "click",
+      "target": "id=password-confirmation",
+      "targets": [
+        ["id=password-confirmation", "id"],
+        ["name=password_confirmation", "name"],
+        ["css=#password-confirmation", "css:finder"],
+        ["xpath=//input[@id='password-confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8293be6c-a8cb-4df1-a413-7b1b97f72568",
+      "comment": "",
+      "command": "type",
+      "target": "id=password-confirmation",
+      "targets": [
+        ["id=password-confirmation", "id"],
+        ["name=password_confirmation", "name"],
+        ["css=#password-confirmation", "css:finder"],
+        ["xpath=//input[@id='password-confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/fieldset[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Test_test1"
+    }, {
+      "id": "0879bcb1-3c8d-40d9-a84d-b846eb50d33f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit > span",
+      "targets": [
+        ["css=.submit > span", "css:finder"],
+        ["xpath=//form[@id='form-validate']/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//form/div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create an Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c279fed9-68cc-49a5-8985-896d7c1cfce4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.message-success > div",
+      "targets": [
+        ["css=.message-success > div", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b13d9272-51f8-4168-bb42-c5d9dfe6e39c",
+      "comment": "",
+      "command": "assertText",
+      "target": "Thank you for registering with Main Website Store.",
+      "targets": [
+        ["css=.message-success > div", "css:finder"],
+        ["xpath=//main[@id='maincontent']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "Thank you for registering with Main Website Store."
+    }, {
+      "id": "a885a2f1-b00a-4c6c-b604-3ffe607621bf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f13e2123-fa8a-4246-98a3-c0f41c12e4e5",
+    "name": "Login",
+    "commands": [{
+      "id": "51adbcd3-aad7-49ae-af2d-c08113888a44",
+      "comment": "Открываем главную страницу сайта",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04cb7bc1-8a5b-408c-addb-5f691d619c76",
+      "comment": "Разворачиваем окно браузера на весь экран",
+      "command": "setWindowSize",
+      "target": "1547x897",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a156e5ff-4d86-4868-84e6-62ef45352093",
+      "comment": "Кликаем мышкой по \"Sign In\"",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.header:nth-child(2) > .authorization-link > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbd82058-f3d6-4b3f-a681-4ef076a526af",
+      "comment": "Кликаем в поле e-mail",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae26ffc2-8f83-43d4-9ae4-4d8e32f2454f",
+      "comment": "Вводим в поле валидный e-mail shlykova1992@gmail.com",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=login[username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "shlykova1992@gmail.com"
+    }, {
+      "id": "1274525d-6df9-4a11-b546-c7c27ffd30ba",
+      "comment": "Кликаем в поле Password",
+      "command": "click",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.field:nth-child(3) #pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d8ec340-6368-4a68-b9fb-b0d55079a6e3",
+      "comment": "Вводим валидный пароль 123321_po",
+      "command": "type",
+      "target": "id=pass",
+      "targets": [
+        ["id=pass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.field:nth-child(3) #pass", "css:finder"],
+        ["xpath=//input[@id='pass']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "123321_po"
+    }, {
+      "id": "dfeacabc-2d3a-4826-9c1a-a0e2f6947a5a",
+      "comment": "Кликаем на клавишу \"Sign In\"",
+      "command": "click",
+      "target": "css=.primary:nth-child(1) > #send2 > span",
+      "targets": [
+        ["css=.primary:nth-child(1) > #send2 > span", "css:finder"],
+        ["xpath=//button[@id='send2']/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0185bb7e-92ed-49c6-9437-aa7c87b013a1",
+      "comment": "Проверка 1 - На наличие элемента с вписанным текстом \"Welcome, Яна Шликова\"",
+      "command": "assertElementPresent",
+      "target": "xpath=//li/span",
+      "targets": [
+        ["css=.header:nth-child(2) .logged-in", "css:finder"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Welcome, Яна Шликова!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "014981ef-63b9-4483-bd11-0e87db97de1a",
+      "comment": "Проверка 2 - Ищем на странице текст \"Welcome, Яна Шликова!\"",
+      "command": "assertText",
+      "target": "css=.header:nth-child(2) .logged-in",
+      "targets": [
+        ["css=.header:nth-child(2) .logged-in", "css:finder"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Welcome, Яна Шликова!')]", "xpath:innerText"]
+      ],
+      "value": "Welcome, Яна Шликова!"
+    }, {
+      "id": "1e05cf40-3cac-49aa-b13f-c8ef8fc3cb5b",
+      "comment": "Выход из аккаунта шаг 1 - кликаем на дропдаун возле надписи \"Welcome, Яна Шликова!\"",
+      "command": "click",
+      "target": "css=.header:nth-child(2) > .customer-welcome .action",
+      "targets": [
+        ["css=.header:nth-child(2) > .customer-welcome .action", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Change')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54f1a895-6951-4f2f-8530-38e02a101bb3",
+      "comment": "Выход из аккаунта шаг 2 - выбираем в списке дропдауна \"Sign Out\"",
+      "command": "clickAt",
+      "target": "linkText=Sign Out",
+      "targets": [
+        ["linkText=Sign Out", "linkText"],
+        ["css=.active .authorization-link > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://magento.softwaretestingboard.com/customer/account/logout/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b367a9ec-df60-46b8-8552-4f6527558eb9",
+      "comment": "Закрываем окно браузера",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a70dbe44-16ea-48ce-814d-cfa2b7aa2cdd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["17615b8f-7292-41f0-b43c-5d9d31adc5de"]
+  }],
+  "urls": ["https://magento.softwaretestingboard.com/"],
+  "plugins": []
+}
